@@ -20,15 +20,16 @@ const Section = () => {
       "title": "Chief Executive Officer"
     },
     {
-      "name": "Tebbani Nassim",
-      "image": "nassim-team.jpg",
-      "title": "Graphic Designer"
-    },
-    {
       "name": "Hind Daoudi",
       "image": "hinde-team.jpg",
       "title": "HR Manager"
     },
+    {
+      "name": "Tebbani Nassim",
+      "image": "nassim-team.jpg",
+      "title": "Graphic Designer"
+    },
+   
     {
       "name": "Moundhir Bachene",
       "image": "moundhir-team.jpg",
