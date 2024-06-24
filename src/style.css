@@ -1589,9 +1589,10 @@ body {
   
   width: 100%;
   background-image: url('./Assets/intro2.gif');
-  background-size: cover;
+  background-size:100% 100%;
+
   aspect-ratio: 2 / 3;
-  
+  max-height: 420px;
  
   
   
