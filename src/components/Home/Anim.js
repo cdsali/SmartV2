@@ -54,9 +54,9 @@ export default ScrollControlledVideo;
 */
 
 import React from 'react';
-import { Row, Col } from "react-bootstrap";
 
-import vid from "../../Assets/anim.mp4";
+
+import vid from "../../Assets/anim.webm";
 
 const Section = () => {
 

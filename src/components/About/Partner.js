@@ -24,7 +24,7 @@ const Section = () => {
          
            
             <div className="newtitle">
-    <h5>STEP INTO</h5>
+    
     <h2>OUR Partner</h2>
     <svg id="Layer_2" data-name="Layer 2" viewBox="0 0 154.2 74.3" xmlns="http://www.w3.org/2000/svg" className="metreg">
         <defs>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from "react-bootstrap";
 
-import vid from "../../Assets/intro.mp4";
+import vid from "../../Assets/intro.webm";
 
 const Section = () => {
 

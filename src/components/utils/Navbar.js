@@ -86,6 +86,12 @@ function NavBar({paget}) {
     // window.location.href = externalUrl;
   };
 
+  const openLocalPdf = () => {
+    const pdfUrl = `${process.env.PUBLIC_URL}/pitch.pdf`;
+    window.open(pdfUrl, '_blank'); // Opens the PDF in a new tab
+  };
+
+
   return (
     <>
       <Navbar
@@ -173,7 +179,7 @@ function NavBar({paget}) {
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <button className="pitch" onClick={redirectToExternalUrl}>Pitch Deck</button>
+                <button className="pitch" onClick={openLocalPdf}>Pitch Deck</button>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

@@ -15,6 +15,9 @@ import { Pagination, Navigation } from 'swiper/modules';
 import img from "../../Assets/product3.png";
 import img2 from "../../Assets/product2.png";
 import img1 from "../../Assets/product1.png";
+import img4 from "../../Assets/product4.png";
+import img5 from "../../Assets/product5.png";
+import img6 from "../../Assets/product6.png";
 const Section = () => {
 
     const [swiperRef, setSwiperRef] = useState(null);
@@ -97,14 +100,37 @@ active lifestyle.
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={img} className="imagep" alt="slide image" />
-        <div className="slide-hover">
+        <img src={img4} className="imagep" alt="slide image" />
+        <div className="slide-hover" style={{padding:"11px"}}>
         <h4>
-        REETMIQ
+        KDEER
         </h4>
 <p className="home-about-body ">
-Features health monitoring, a buzzer, and GPS, providing comprehensive tracking and safety for your
-active lifestyle.
+Includes health monitoring, GPS, e-SIM, and a buzzer for optimal connectivity and safety. The e-SIM enhances connectivity and helps track your watch if lost, offering peace of mind with advanced
+functionality.
+        </p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={img5} className="imagep" alt="slide image" />
+        <div className="slide-hover" >
+        <h4>
+        Mobile App
+        </h4>
+<p className="home-about-body ">
+     Our new mobile app provide real-time GPS tracking, letting you stay connected and informed with ease and efficiency
+        </p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={img6} className="imagep" alt="slide image" />
+        <div className="slide-hover">
+        <h4>
+        Power & Class
+        </h4>
+<p className="home-about-body ">
+Boasting a long-lasting battery that endures 5 to 8 days, and a waterproof design, ensuring
+reliability in any condition.
         </p>
         </div>
       </SwiperSlide>

@@ -6,7 +6,7 @@ import Home2 from "./Home2";
 import { FaArrowRight } from "react-icons/fa6";
 
 import lg from "../../Assets/lg.svg";
-import vid from "../../Assets/banner.mp4";
+import vid from "../../Assets/banner.webm";
 import Nav from "../utils/Navbar";
 function Home() {
   const redirectToExternalUrl = () => {
