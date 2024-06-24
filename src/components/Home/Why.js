@@ -24,8 +24,11 @@ function Why() {
               </div>
             )}
           </div>
+          
         ))}
+        
       </div>
+      
     </div>
   );
 }
