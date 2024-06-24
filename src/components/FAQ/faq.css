@@ -1,0 +1,81 @@
+/* faq.css */
+
+
+.faq{
+  margin-top: 0 !important;
+  
+  
+
+}
+.faqbg{
+  background-image: url('../../Assets/faq.png');
+  background-size: cover;
+  min-height: 800px;
+
+}
+.faqqst
+{
+  padding-left: 80px !important;
+
+}
+.faq .newtitle{
+  margin-bottom: 35px;
+
+}
+
+
+.faq .row-content-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.faq .row-title-text{
+  position: relative !important;
+  padding-left:70px !important;
+} 
+.faq .row-title-text::before{
+ position: absolute !important;
+ content: '';
+ align-content: end;
+ width:20px;
+ height:calc(100% - 5px);
+ left: 0;
+top: 0px;
+ 
+
+ background-image: url('../../Assets/logo3.png') !important;
+ background-size: contain;
+ background-repeat: no-repeat;
+
+} 
+.faq .row-title-text::after{
+  position: absolute !important;
+  content: '── ';
+ 
+  width:20px;
+  height:calc(100% - 5px);
+  left: 25px;
+ top: 0px;
+  
+ 
+ 
+ } 
+
+
+
+@media (max-width: 768px) {
+  .faq{
+    margin-top: 50px !important;
+  }
+  .faqbg{
+    display: none;
+  }
+  .faqqst
+{
+  padding-left: 20px !important;
+}
+}
+
+
+
+

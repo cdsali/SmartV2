@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon/logo3.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>SASTASMART</title>
+    <meta name="description" content="bridges the gap between tradition and technology, offering a seamless integration of smart features into your cherished timepieces.where luxury meets functionality watchs">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="SASTASMART">
+    <meta itemprop="description" content="bridges the gap between tradition and technology, offering a seamless integration of smart features into your cherished timepieces. where luxury meets functionality watchs">
+    <meta itemprop="image"
+          content="">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SASTASMART">
+    <meta property="og:description" content="bridges the gap between tradition and technology, offering a seamless integration of smart features into your cherished timepieces. where luxury meets functionality watchss">
+    <meta property="og:image"
+          content="%PUBLIC_URL%/b.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SASTASMART">
+    <meta name="twitter:description" content="bridges the gap between tradition and technology, offering a seamless integration of smart features into your cherished timepieces. where luxury meets functionality watchs">
+    <meta name="twitter:image"
+          content="">
+ 
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+
+        .bod{
+            position: relative;
+            
+/*background: linear-gradient(to bottom, #FFFFFF 0%, #FFF7F7 100%);*/
+font-family: "El Messiri", sans-serif;
+  font-optical-sizing: auto;
+font-style: normal;
+  
+        }
+
+        .bod::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+           background: url('svg.svg');
+           
+            background-size: cover;
+            opacity: 0.1;
+            
+            background-position: center;
+            background-attachment: fixed;
+            
+        }
+    </style>
+
+</head>
+
+<body class="bod">
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 
+  <script>
+     
+      AOS.init();
+      window.addEventListener('resize', function() {
+        AOS.refreshHard();
+      });
+  
+    /*
+    AOS.init();
+
+ 
+     // Function to handle rotation based on scroll
+     window.addEventListener('scroll', function () {
+            // Get the scroll position
+            var scrollPos = window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
+
+            // Calculate rotation angle (5 degrees)
+            var rotationAngle = scrollPos / 20; // Adjust the divisor for desired rotation speed
+
+            // Apply rotation to the body
+            document.body.style.transform = 'rotate(' + rotationAngle + 'deg)';
+        });
+        */
+  </script>
+  
+</body>
+
+</html>

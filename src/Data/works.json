@@ -1,0 +1,26 @@
+[
+
+{
+    "title":"Removing the Original Buckle",
+    "description":"Begin by detaching the original buckle from the traditional watch. This typically involves unlocking the spring bars that secure the buckle to the band.",
+    "image":"step1.png",
+    "order":0
+},
+{
+    "title":"Inserting the Smart Buckle",
+    "description":"Install the Smart Buckle in place of the original buckle. This intelligent buckle fits the existing band and is secured in the same manner as the traditional buckle.",
+    "image":"step2.png",
+    "order":1
+},
+{
+    "title":"Regular Usage",
+    "description":"The watch can now be worn as usual, but with enhanced capabilities due to the Smart Buckle, converting a traditional watch into a connected device without compromising its classic design.",
+    "image":"step3.png",
+    "order":0
+}
+
+
+
+
+
+]
