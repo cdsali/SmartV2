@@ -1569,7 +1569,17 @@ body {
 
 
 @media (max-width: 767.9px) {
-  
+  .why2 .container {
+
+    grid-template-columns: repeat(2, 1fr);
+   
+    aspect-ratio: 1 / 1;
+  }
+
+.container .column:last-child {
+  display: none;
+}
+
   .about,
   .all {
     background: radial-gradient(
