@@ -5,10 +5,7 @@ import Container from "react-bootstrap/Container";
 import logodark from "../../Assets/logo3.png";
 import logowhite from "../../Assets/logo2.png";
 import { Link } from "react-router-dom";
-import { AiOutlineHome } from "react-icons/ai";
-import { LuContact } from "react-icons/lu";
-import { MdPhonelinkRing } from "react-icons/md";
-import { BsWatch } from "react-icons/bs";
+
 import { IoIosArrowUp } from "react-icons/io";
 
 function NavBar({paget}) {
@@ -16,7 +13,6 @@ function NavBar({paget}) {
   const [navColour, updateNavbar] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
- 
   function scrollHandler() {
     if (window.scrollY >= 120) {
       updateNavbar(true);
@@ -65,7 +61,7 @@ function NavBar({paget}) {
   }, []);
 
   const scrollTo = (id) => {
-    const Section = document.getElementById(id);
+   const Section = document.getElementById(id);
     if (Section) {
       Section.scrollIntoView({ behavior: 'smooth' });
     }
@@ -129,6 +125,7 @@ function NavBar({paget}) {
     }}
     className={navColour ? "navblue" : "navwhite"}
   >
+    
     HOW IT WORKS
   </Nav.Link>
 </Nav.Item>
