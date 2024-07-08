@@ -75,11 +75,11 @@ const Section = () => {
             </svg>
           </div>
           <ul>
-            <li>Removing the Original Buckle</li>
-            <li>Preparing the Smart Buckle</li>
-            <li>Inserting the Smart Buckle</li>
-            <li>Checking Functionality</li>
-            <li>Regular Usage</li>
+            <li>Remove the Original Buckle</li>
+            <li>Prepare the Smart Buckle</li>
+            <li>Attach the Smart Buckle</li>
+            <li>Verify Functionality</li>
+            <li>Enjoy Daily Use</li>
           </ul>
         </Col>
       </Row>
