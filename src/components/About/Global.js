@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Vision from "./Vision";
 import Team from "./Team";
 import Partner from "./Partner";
+import Contact from "../Contact/Contact";
 function Home2() {
   
 
@@ -16,7 +17,7 @@ function Home2() {
       <Vision />
       <Team />
       <Partner />
-    
+      <Contact />
     
 
 

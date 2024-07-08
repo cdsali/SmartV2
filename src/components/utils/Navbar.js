@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logodark from "../../Assets/logo3.png";
 import logowhite from "../../Assets/logo2.png";
-import { Link } from "react-router-dom";
+import { Link ,useNavigate} from "react-router-dom";
 
 import { IoIosArrowUp } from "react-icons/io";
 
@@ -12,7 +12,7 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-
+  const navigate = useNavigate();
   function scrollHandler() {
     if (window.scrollY >= 120) {
       updateNavbar(true);
@@ -86,7 +86,19 @@ function NavBar() {
     const pdfUrl = `${process.env.PUBLIC_URL}/pitch.pdf`;
     window.open(pdfUrl, '_blank'); // Opens the PDF in a new tab
   };
+  const handleClick = (e, id) => {
+    e.preventDefault();
+    updateExpanded(false);
 
+    // Navigate to /Home and then scroll to the given id
+    navigate('/', { replace: true });
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100); // Adjust the timeout as necessary
+  };
 
   return (
     <>
@@ -117,12 +129,8 @@ function NavBar() {
             <Nav.Item>
   <Nav.Link
     as={Link}
-    to="#howit"
-    onClick={(e) => {
-      e.preventDefault();
-      scrollTo("howit");  // Update to scroll to 'product' id
-      updateExpanded(false);
-    }}
+    to="/#how"
+    onClick={(e) => handleClick(e, 'howit')}
     className={navColour ? "navblue" : "navwhite"}
   >
     
@@ -132,12 +140,8 @@ function NavBar() {
               <Nav.Item>
   <Nav.Link
     as={Link}
-    to="#product"
-    onClick={(e) => {
-      e.preventDefault();
-      scrollTo("product");  // Update to scroll to 'product' id
-      updateExpanded(false);
-    }}
+    to="/#product"
+    onClick={(e) => handleClick(e, 'product')}
     className={navColour ? "navblue" : "navwhite"}
   >
     COLLECTIONS
