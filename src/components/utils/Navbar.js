@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 import { IoIosArrowUp } from "react-icons/io";
 
-function NavBar({paget}) {
+function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -99,7 +99,7 @@ function NavBar({paget}) {
       >
         <Container style={{ paddingLeft: 0 }}>
         <Navbar.Brand href="/" className="d-flex">
-            <img src={paget=="1" ? logodark: logowhite} className="logo2" alt="brand" />
+            <img src={ logowhite} className="logo2" alt="brand" />
           </Navbar.Brand>
         <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
@@ -148,7 +148,7 @@ function NavBar({paget}) {
               <Nav.Item className="item-logo">
                 
               <Navbar.Brand href="/" className="d-flex">
-            <img src={paget=="1" ? logodark: logowhite} className="logo" alt="brand" />
+            <img src={ logowhite} className="logo" alt="brand" />
           </Navbar.Brand>
           
           </Nav.Item>

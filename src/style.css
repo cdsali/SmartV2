@@ -728,6 +728,7 @@ font-weight: 100;
   .home-header {
     order: 2;
     padding-top: 30px !important;
+    padding-left: 24px !important;
    
   }
   .mobile-min-height {
