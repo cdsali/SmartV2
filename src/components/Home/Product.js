@@ -25,10 +25,10 @@ const Section = () => {
 
     <div className="product" id="product">
          
-    <Row className="section-images container " style={{left:"0",right:"0",margin:"auto"}} >
+    <Row className="section-images container"  >
      
 
-      <Col md={12}  style={{textAlign:"center"}}>
+      <Col md={12}  >
       
       <div className="product-head"  >
       <div className="newtitle"  >
@@ -36,7 +36,7 @@ const Section = () => {
 <h2 >Products</h2>
 
 </div>
-<p className="home-about-body subt" >
+<p className="home-about-body subt white-color" >
 Adding brainpower to your watch has never been more stylish.
     </p>
     </div>
@@ -101,7 +101,7 @@ active lifestyle.
       </SwiperSlide>
       <SwiperSlide>
         <img src={img4} className="imagep" alt="slide image" />
-        <div className="slide-hover" style={{padding:"11px"}}>
+        <div className="slide-hover" >
         <h4>
         KDEER
         </h4>

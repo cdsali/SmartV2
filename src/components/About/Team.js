@@ -14,16 +14,19 @@ const Section = () => {
       "image": "azzi-team.jpg",
       "title": "Chief Business Development Officer"
     },
+    
     {
       "name": "Adnan Rebba",
       "image": "reba-team.jpg",
       "title": "Chief Executive Officer"
     },
+   
     {
       "name": "Hind Daoudi",
       "image": "hinde-team.jpg",
       "title": "HR Manager"
     },
+   
     {
       "name": "Tebbani Nassim",
       "image": "nassim-team.jpg",
@@ -59,7 +62,7 @@ const Section = () => {
 
   return (
     <div className="team">
-      <h1 className='titles' style={{ fontSize: "3em" }}>
+      <h1 className='titles white-color' style={{ fontSize: "3em" }}>
         Team
       </h1>
       <Row className="section-images container" style={{ left: "0", right: "0", margin: "auto" }}>

@@ -1,14 +1,18 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
+//import { SlSocialLinkedin } from "react-icons/sl";
 
-
-const TeamMember = ({ image, name, role }) => {
-  
+const TeamMember = ({ image, name, role, linkedin }) => {
   return (
     <Col md={2} xs={4} className="d-flex flex-column justify-content-center align-items-center text-center">
-      <img src={require(`../../Assets/team/${image}`)} alt={name} className=" rounded-circle mb-3" />
+      <img
+        src={require(`../../Assets/team/${image}`)}
+        alt={name}
+        className="rounded-circle mb-3"
+      />
       <h5>{name}</h5>
-      <p className="text-muted">{role}</p>
+      <p className="text-muted">{role} </p>
+      
     </Col>
   );
 };

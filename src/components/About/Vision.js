@@ -10,7 +10,7 @@ const Section = () => {
   return (
 
     <div className="vision" >
-        <h1 className='titles' style={{ fontSize: "3em"}}>
+        <h1 className='titles white-color' style={{ fontSize: "3em"}}>
         Our Vision
         </h1>
     <Row className="section-images container " style={{left:"0",right:"0",margin:"auto"}} >

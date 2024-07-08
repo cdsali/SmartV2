@@ -15,7 +15,7 @@ function Home() {
     
     <section >
       <Container fluid className="about-home-section" id="home">
-      <Nav paget={"1"} />
+      <Nav />
         <Container className="about-content" >
           <Row>
           <Col md={5}  className="imagebanner"  >
@@ -39,7 +39,7 @@ function Home() {
         <defs>
             <style>
                 {`.cls-1 {
-                    fill: #000;
+                    fill: #fff;
                     stroke-width: 0px;
                 }`}
             </style>

@@ -4,6 +4,7 @@ import { Row, Col } from "react-bootstrap";
 
 import Faq from "react-faq-component";
 import './faq.css';
+
 const data = {
     title: "",
     rows: [
@@ -28,9 +29,9 @@ const data = {
 };
 
 const styles = {
-     bgColor: 'white',
-    titleTextColor: "#3C654D",
-    rowTitleColor: "black",
+     bgColor: '#000816',
+    titleTextColor: "white",
+    rowTitleColor: "white",
     // rowContentColor: 'grey',
     // arrowColor: "red",
 };
@@ -61,7 +62,7 @@ export default function Fq() {
         <defs>
             <style>
                 {`.cls-1 {
-                    fill: #000;
+                    fill: #fff;
                     stroke-width: 0px;
                 }`}
             </style>

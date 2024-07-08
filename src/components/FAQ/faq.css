@@ -4,34 +4,36 @@
 .faq{
   margin-top: 0 !important;
   
-  
 
 }
 .faqbg{
   background-image: url('../../Assets/faq.png');
   background-size: cover;
   min-height: 800px;
+ 
 
 }
 .faqqst
 {
-  padding-left: 80px !important;
-
+  padding-left: 92px !important;
+  
 }
 .faq .newtitle{
-  margin-bottom: 35px;
-
+  margin-bottom: 60px;
+  
 }
 
 
 .faq .row-content-text{
   text-align: justify;
   text-justify: inter-word;
+  color:white !important;
 }
 
 .faq .row-title-text{
   position: relative !important;
   padding-left:70px !important;
+
 } 
 .faq .row-title-text::before{
  position: absolute !important;
@@ -43,7 +45,7 @@
 top: 0px;
  
 
- background-image: url('../../Assets/logo3.png') !important;
+ background-image: url('../../Assets/logo2.png') !important;
  background-size: contain;
  background-repeat: no-repeat;
 

@@ -1,7 +1,10 @@
+
+
 import React, { useRef, useEffect } from 'react';
 import { Row, Col } from "react-bootstrap";
-import vid from "../../Assets/video.webm";
+import vid from "../../Assets/brand.webm";
 import { useInView } from "react-intersection-observer";
+
 
 const Section = () => {
   const videoRef = useRef(null);
@@ -20,33 +23,28 @@ const Section = () => {
   }, [inView]);
 
   return (
-    <div className="elite" ref={ref}>
-      <div className="backvideo">
-        <video
-          ref={videoRef}
-          loop
-          muted
-          className="video"
-          width="100%"
-          controls={false}
-        >
-          <source src={vid} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+    <div className="elite" id="elite" ref={ref}>
+      
       <Row className="section-images container" style={{ left: "0", right: "0", margin: "auto" }}>
-        <Col md={5} className="d-flex flex-column justify-content-center">
-          <div className="newtitle">
-            <h2 style={{ color: "white" }}> Elite Technologie</h2>
+        
+        <Col md={6} className="ord2 d-flex flex-column justify-content-center on" >
+          <div className="video-wrapper" data-aos="zoom-in">
+            <video autoPlay loop muted playsInline className="video" width="100%">
+              <source src={vid} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <p className="home-about-body">
+        </Col>
+        <Col md={6} className="d-flex flex-column justify-content-center ord1 pd-text-left">
+        <div className="newtitle">
+            <h2 className='white-color'> Elite Technologie</h2>
+          </div>
+          <p className="home-about-body white-color">
             Experience the pinnacle of innovation with our elite technology, seamlessly integrating advanced features 
             such as health monitoring, GPS, e-SIM, buzzer, and enhanced security. Elevate your watch to new heights of sophistication and performance 
             with our smart buckle, offering a comprehensive suite of functionalities designed to meet your every need.
           </p>
-        </Col>
-        <Col md={7} className="ord2">
-          {/* Additional content can go here */}
+         
         </Col>
       </Row>
     </div>

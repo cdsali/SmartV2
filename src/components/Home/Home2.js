@@ -6,20 +6,13 @@ import Intro from "./Introduction";
 import How from "./How";
 
 /*import Cards from "./CardsCollection";*/
-import {
-    AiFillGithub,
- 
- 
-} from "react-icons/ai";
-
-import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 
 import FAQ from "../FAQ/Faq";
 
 
 
-
+import vid from "../../Assets/v2.mp4";
 
 
 
@@ -30,12 +23,13 @@ import FAQ from "../FAQ/Faq";
 
 import Elite from "./Elite";
 
-import Anim from "./Anim";
 
 import Brand from "./Brand";
 
 import Product from "./Product";
+import Exude from "./Exude";
 
+import Watch from "./Watch";
 function Home2() {
   
 
@@ -44,20 +38,27 @@ function Home2() {
     <Container fluid className="home-about-section" id="about" >
       
 
-      <Container>
+      <Container >
       <Intro />
       <div className="container" style={{position:"relative"}}>
       <div className="video-under" >
-         
+      <video className="video" width="100%" autoPlay loop muted playsInline>
+              <source src={vid} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
          </div></div>
+         <Exude />
+         <Product />
+         <Elite />
+         <Brand />
       </Container>
+      
       <How />
-      <Elite />
-      <Anim />
-    
+      <Watch />
+      
 
-      <Brand />
-      <Product />
+     
+      
      
 
 
