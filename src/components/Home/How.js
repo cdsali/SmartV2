@@ -114,7 +114,7 @@ const Section = () => {
             </video>
           </div>
         </Col>
-        <Col md={6} className="d-flex flex-column justify-content-center ord1 pd-text-left">
+        <Col md={6} className="d-flex flex-column justify-content-center ord1 ">
         <div className="newtitle">
             <h5>HOW IT </h5>
             <h2>WORKS</h2>
