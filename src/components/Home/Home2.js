@@ -12,14 +12,7 @@ import FAQ from "../FAQ/Faq";
 
 
 
-import vid from "../../Assets/v2.mp4";
-
-
-
-
-
-
-
+import vid from "../../Assets/v2.webm";
 
 import Elite from "./Elite";
 

@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import { Row, Col } from "react-bootstrap";
-import vid from "../../Assets/brand.webm";
+import vid from "../../Assets/brand2.mp4";
 import { useInView } from "react-intersection-observer";
 
 

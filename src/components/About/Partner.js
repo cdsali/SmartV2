@@ -24,7 +24,7 @@ const Section = () => {
            
             <div className="newtitle">
     
-    <h2 >OUR Partner</h2>
+    <h2 >Our Partners</h2>
     <img src={met} alt="Met SVG" className="metreg" />
 </div>
             

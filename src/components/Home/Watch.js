@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import { Row, Col } from "react-bootstrap";
-import vid from "../../Assets/brand.webm";
+import image from "../../Assets/watch.png";
 import { useInView } from "react-intersection-observer";
 
 const Section = () => {
@@ -35,12 +35,16 @@ const Section = () => {
          
         </Col>
         <Col md={6} className="ord2 d-flex flex-column justify-content-center">
-          <div className="video-wrapper" data-aos="zoom-in">
-            <video autoPlay loop muted playsInline className="video" width="100%">
-              <source src={vid} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+        
+          <img 
+    
+    src={image}
+    
+    alt="avatar"
+    style={{width:"100%",height:"auto"}}
+    data-aos="fade-up"
+  />
+       
         </Col>
       
       </Row>

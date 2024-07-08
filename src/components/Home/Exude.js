@@ -26,8 +26,8 @@ const Section = () => {
       <Row className="section-images container " style={{ left: "0", right: "0", margin: "auto" }}>
         <Col md={6} className="d-flex flex-column justify-content-center ord1 pd-text-right" >
           <div className="newtitle">
-            <h5>exude  </h5>
-            <h2>sophistication</h2>
+            <h5>Exude  </h5>
+            <h2>Sophistication</h2>
             <img src={met} alt="Met SVG" className="metreg" />
 
           </div>

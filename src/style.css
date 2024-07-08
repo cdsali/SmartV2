@@ -272,10 +272,19 @@ h1 {
   padding-top: initial;
   height: 100vh;
   box-shadow: initial;
-  background-color: rgba(0, 8, 22,0.6);
+  background-color: rgba(0, 8, 22,0.2);
   color: #000;
   border-bottom: 5px solid var(--amber-color);
 }
+
+@media  (max-width:992px) {
+  .home-section {
+  
+    background-color: rgba(0, 8, 22,0.6);
+   
+  }
+}
+
 @keyframes wave-animation {
   0%,
   100%,
