@@ -23,7 +23,7 @@ const Section = () => {
     const [swiperRef, setSwiperRef] = useState(null);
   return (
 
-    <div className="product" id="product">
+    <div className="product mg-between" id="product">
          
     <Row className="section-images container"  >
      

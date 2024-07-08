@@ -23,7 +23,7 @@ const Section = () => {
   }, [inView]);
 
   return (
-    <div className="elite" id="elite" ref={ref}>
+    <div className="elite mg-between" id="elite" ref={ref}>
       
       <Row className="section-images container" style={{ left: "0", right: "0", margin: "auto" }}>
         

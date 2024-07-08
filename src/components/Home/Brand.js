@@ -23,7 +23,7 @@ const Section = () => {
   }, [inView]);
 
   return (
-    <div className="brand" id="brand" ref={ref}>
+    <div className="brand mg-between" id="brand" ref={ref}>
       
       <Row className="section-images container" style={{ left: "0", right: "0", margin: "auto" }}>
       <Col md={6} className="d-flex flex-column justify-content-center ord1 pd-text-right" >

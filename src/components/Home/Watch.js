@@ -39,10 +39,10 @@ const Section = () => {
           <img 
     
     src={image}
-    
+    className='bounce'
     alt="avatar"
     style={{width:"100%",height:"auto"}}
-    data-aos="fade-up"
+    
   />
        
         </Col>
