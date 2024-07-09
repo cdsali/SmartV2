@@ -1372,7 +1372,7 @@ font-family: "Poppins", sans-serif;
   margin: auto;
 
   z-index: -1; 
-  
+
   object-fit: contain;
 }
 
@@ -1410,8 +1410,8 @@ font-family: "Poppins", sans-serif;
   background-color: #001C4E;
   width: 100%;
   
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
   color: white;
 }
