@@ -7,23 +7,11 @@ import { useInView } from "react-intersection-observer";
 
 
 const Section = () => {
-  const videoRef = useRef(null);
-  const [ref, inView] = useInView({
-    threshold: 0.5, // Trigger when 50% of the video is in view
-  });
 
-  useEffect(() => {
-    if (videoRef.current) {
-      if (inView) {
-        videoRef.current.play();
-      } else {
-        videoRef.current.pause();
-      }
-    }
-  }, [inView]);
+  
 
   return (
-    <div className="elite mg-between" id="elite" ref={ref}>
+    <div className="elite mg-between" id="elite">
       
       <Row className="section-images container" style={{ left: "0", right: "0", margin: "auto" }}>
         

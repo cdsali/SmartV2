@@ -11,13 +11,19 @@ const Section = () => {
   });
 
   useEffect(() => {
+    let timeout;
     if (videoRef.current) {
       if (inView) {
-        videoRef.current.play();
+        timeout = setTimeout(() => {
+          videoRef.current.play();
+        }, 100); // Add a 100ms delay before playing
       } else {
-        videoRef.current.pause();
+        timeout = setTimeout(() => {
+          videoRef.current.pause();
+        }, 100); // Add a 100ms delay before pausing
       }
     }
+    return () => clearTimeout(timeout); // Clear timeout if the effect cleans up
   }, [inView]);
 
   return (

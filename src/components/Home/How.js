@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Row, Col } from "react-bootstrap";
 import vid from "../../Assets/v6.webm";
 import { useInView } from "react-intersection-observer";
-
+import vidm from "../../Assets/v6m.webm";
 const Section = () => {
   const videoRef = useRef(null);
   const [ref, inView] = useInView({
@@ -18,15 +18,22 @@ const Section = () => {
   }, []);
 
   useEffect(() => {
+    let timeout;
     if (videoRef.current) {
       if (inView) {
-        videoRef.current.play();
+        timeout = setTimeout(() => {
+          videoRef.current.play();
+        }, 100); // Add a 100ms delay before playing
       } else {
-        videoRef.current.pause();
+        timeout = setTimeout(() => {
+          videoRef.current.pause();
+        }, 100); // Add a 100ms delay before pausing
       }
     }
+    return () => clearTimeout(timeout); // Clear timeout if the effect cleans up
   }, [inView]);
 
+   
   return (
     <div className="howit" id="howit" ref={ref}>
       {windowWidth > 768 && (
@@ -36,7 +43,7 @@ const Section = () => {
             loop
             muted
             className="video"
-            width="80%"
+            width="100%"
             controls={false}
           >
             <source src={vid} type="video/webm" />
@@ -50,7 +57,7 @@ const Section = () => {
           {windowWidth <= 768 && (
             <div className="video-wrapper" data-aos="zoom-in">
               <video autoPlay loop muted playsInline className="video" width="100%">
-                <source src={vid} type="video/webm" />
+                <source src={vidm} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>)}
