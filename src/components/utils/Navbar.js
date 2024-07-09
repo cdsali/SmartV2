@@ -86,12 +86,12 @@ function NavBar() {
     const pdfUrl = `${process.env.PUBLIC_URL}/pitch.pdf`;
     window.open(pdfUrl, '_blank'); // Opens the PDF in a new tab
   };
-  const handleClick = (e, id) => {
+  const handleClick = (e,page,id) => {
     e.preventDefault();
     updateExpanded(false);
 
     // Navigate to /Home and then scroll to the given id
-    navigate('/', { replace: true });
+    navigate(page, { replace: true });
     setTimeout(() => {
       const element = document.getElementById(id);
       if (element) {
@@ -130,7 +130,7 @@ function NavBar() {
   <Nav.Link
     as={Link}
     to="/#how"
-    onClick={(e) => handleClick(e, 'howit')}
+    onClick={(e) => handleClick(e,'/', 'howit')}
     className={navColour ? "navblue" : "navwhite"}
   >
     
@@ -141,7 +141,7 @@ function NavBar() {
   <Nav.Link
     as={Link}
     to="/#product"
-    onClick={(e) => handleClick(e, 'product')}
+    onClick={(e) => handleClick(e,'/','product')}
     className={navColour ? "navblue" : "navwhite"}
   >
     COLLECTIONS
@@ -167,12 +167,8 @@ function NavBar() {
               <Nav.Item>
                 <Nav.Link
                   as={Link}
-                  to="#contactus"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollTo("contactus");
-                    updateExpanded(false);
-                  }}
+                  to="/about#contactus"
+                  onClick={(e) => handleClick(e,'/about', 'contactus')}
                   className={navColour ? "navblue" : "navwhite"}
                 >
                   
