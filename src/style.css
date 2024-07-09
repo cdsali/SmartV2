@@ -2077,7 +2077,11 @@ padding: 0 !important;
 
 
 @media (max-width: 767.9px) {
- 
+  .partner .home-about-body{
+
+  
+    padding-bottom: 60px;
+  }
   
   .imagebanner {
  

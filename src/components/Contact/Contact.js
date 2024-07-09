@@ -14,6 +14,7 @@ const ContactUs = () => {
   };
 
   return (
+    
     <div className="contact-form" id="contactus">
       <h2>CONTACT</h2>
       <form onSubmit={handleSubmit}>
