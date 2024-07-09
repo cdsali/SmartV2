@@ -31,7 +31,7 @@ html {
     rgb(118, 249, 48)
   );
   --amber-color: #D6AD60;
-  --imp-text-color: #f0a500;
+  --imp-text-color: #D6AD60;
   --vert: #020f26;
 }
 .icon-colour,
@@ -116,6 +116,7 @@ button:focus {
   letter-spacing: 3.2px;
  
 }
+
 .navbar {
   padding: 1.2rem 2rem !important;
   font-size: 1.2rem !important;
@@ -233,11 +234,11 @@ h1 {
   content: "";
   position: relative;
   display: block;
-  height: 5px;
+  height: 2px;
   width: 0;
   border-radius: 16px;
-  background: var(--imp-text-color);
-  bottom: 1px;
+  background: var(--amber-color);
+  bottom: -2px;
   left: 0;
   z-index: -1;
   transition: 0.3s ease-out;
@@ -458,6 +459,8 @@ h1::before {
 .why {
   justify-content: center;
 }
+
+/*
 .home-social-icons {
   position: relative !important;
   width: 40px !important;
@@ -493,7 +496,7 @@ h1::before {
 .social-icons {
   padding-right: 15px;
   padding-left: 15px;
-}
+}*/
 
 .about-section {
   position: relative !important;
@@ -1370,7 +1373,7 @@ font-family: "Poppins", sans-serif;
 
   z-index: -1; 
   
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .bounce {
