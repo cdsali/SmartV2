@@ -43,13 +43,11 @@ function Home() {
         <div className="backvideo" ref={ref}>
           <video
             ref={videoRef}
-            autoPlay
-            loop
-            muted
+            autoPlay loop muted playsInline
             className="video"
             width="100%"
             controls={false}
-            playsinline
+            
           >
             <source src={vid} type="video/mp4" />
             Your browser does not support the video tag.
