@@ -1378,7 +1378,8 @@ font-family: "Poppins", sans-serif;
 
 
 .bounce {
- 
+ border-top-right-radius: 30%;
+ border-bottom-left-radius: 30%;
   animation: bounce 2s infinite;
 }
 
@@ -1964,7 +1965,7 @@ display:block ;
 
 
 .vision{
-  background-image: url('./Assets/partner.png');
+  background-image: url('./Assets/back.jpg');
   background-size: cover;
   width: 100%;
  

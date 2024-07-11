@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import { Row, Col } from "react-bootstrap";
-import image from "../../Assets/watch.png";
+import image from "../../Assets/watch.jpg";
 import { useInView } from "react-intersection-observer";
 
 const Section = () => {
