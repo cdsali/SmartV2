@@ -39,7 +39,7 @@ function Home() {
 
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section d-flex flex-column justify-content-center" id="home">
         <Nav />
         <div className="backvideo" ref={ref}>
           <video
@@ -54,9 +54,9 @@ function Home() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <Container className="home-content">
+        <Container className="home-content" >
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={7} xs={12} className="home-header">
               <h1 className="heading" style={{ position: "relative" }}>
                 Dive Into The Future
               </h1>
