@@ -46,7 +46,7 @@ const Section = () => {
         <Col md={6} className="ord2 d-flex flex-column justify-content-center on" >
           <div className="video-wrapper " data-aos="zoom-in">
             <video autoPlay loop muted playsInline className="video" width="100%">
-              <source src={vid} type="video/mp4" />
+              <source src={vid} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </div>

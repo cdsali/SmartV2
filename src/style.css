@@ -1376,6 +1376,19 @@ font-family: "Poppins", sans-serif;
   object-fit: contain;
 }
 
+
+.video::-webkit-media-controls {
+  display: none !important;
+}
+
+.video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+.video::-webkit-media-controls-panel {
+  display: none !important;
+}
+
 #watch{
   padding-bottom: 100px !important;
 }

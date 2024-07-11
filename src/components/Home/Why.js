@@ -47,7 +47,7 @@ function Why() {
         <div className="column">
           <div className="item" data-aos="zoom-in">
             <video className="video" width="100%" autoPlay loop muted playsInline>
-              <source src={vid} type="video/mp4" />
+              <source src={vid} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </div>
