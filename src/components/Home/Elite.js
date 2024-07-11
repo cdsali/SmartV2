@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import { Row, Col } from "react-bootstrap";
-import image from "../../Assets/elite.png";
+import image from "../../Assets/elite.webp";
 import { useInView } from "react-intersection-observer";
 
 

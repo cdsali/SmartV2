@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from 'react';
 import { Row, Col } from "react-bootstrap";
-import image from "../../Assets/watch.jpg";
+import image from "../../Assets/watch.webp";
 import { useInView } from "react-intersection-observer";
 
 const Section = () => {
@@ -22,7 +22,7 @@ const Section = () => {
   }, [inView]);
 
   return (
-    <div className="excude" id="excude" ref={ref}>
+    <div className="excude" id="watch" ref={ref}>
       
       <Row className="section-images container" style={{ left: "0", right: "0", margin: "auto" }}>
       <Col md={6} className="d-flex flex-column justify-content-center ord1 pd-text-right" >
