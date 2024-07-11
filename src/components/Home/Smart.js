@@ -56,10 +56,10 @@ function Home() {
         </div>
         <Container className="home-content" >
           <Row>
-            <Col md={7} sm={12} className="home-header">
+            <Col md={12} className="home-header">
               <h1 className="heading" style={{ position: "relative" }}>
                 Dive Into The Future
-              </h1>
+              </h1> 
               <h1 className="heading2" style={{ position: "relative" }}>
                 Keep Your Class
               </h1>

@@ -259,7 +259,8 @@ h1 {
 }
 .home-header {
   padding-top: 80px !important;
-  background-color: #fff0;
+ 
+  width: 60% !important;
   color: var(--vert);
   z-index: 99;
 }
@@ -283,6 +284,9 @@ h1 {
   
     background-color: rgba(0, 8, 22,0.6);
    
+  }
+  .home-header{
+    width: 100% !important;
   }
 }
 
@@ -730,6 +734,7 @@ font-weight: 100;
 
  
   .home-header {
+  
     order: 2;
     padding-top: 30px !important;
     padding-left: 24px !important;
