@@ -48,6 +48,7 @@ function Home() {
             className="video"
             width="100%"
             controls={false}
+            playsinline
           >
             <source src={vid} type="video/webm" />
             Your browser does not support the video tag.
