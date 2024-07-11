@@ -1,6 +1,6 @@
 import React from "react";
 
-import vid from "../../Assets/v2.webm";
+import vid from "../../Assets/v2.mp4";
 
 function Why() {
   return (
@@ -47,7 +47,7 @@ function Why() {
         <div className="column">
           <div className="item" data-aos="zoom-in">
             <video className="video" width="100%" autoPlay loop muted playsInline>
-              <source src={vid} type="video/webm" />
+              <source src={vid} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
