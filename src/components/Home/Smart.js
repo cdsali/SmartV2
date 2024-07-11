@@ -43,6 +43,7 @@ function Home() {
         <div className="backvideo" ref={ref}>
           <video
             ref={videoRef}
+            autoPlay
             loop
             muted
             className="video"
