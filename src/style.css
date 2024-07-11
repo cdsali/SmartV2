@@ -1376,7 +1376,7 @@ font-family: "Poppins", sans-serif;
   object-fit: contain;
 }
 
-
+/*
 .video::-webkit-media-controls {
   display: none !important;
 }
@@ -1387,7 +1387,7 @@ font-family: "Poppins", sans-serif;
 
 .video::-webkit-media-controls-panel {
   display: none !important;
-}
+}*/
 
 #watch{
   padding-bottom: 100px !important;
