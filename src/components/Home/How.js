@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Row, Col } from "react-bootstrap";
 import vid from "../../Assets/v6.webm";
 import { useInView } from "react-intersection-observer";
-import vidm from "../../Assets/v6m.webm";
+import vidm from "../../Assets/v6n.mp4";
 const Section = () => {
   const videoRef = useRef(null);
   const [ref, inView] = useInView({
@@ -57,7 +57,7 @@ const Section = () => {
           {windowWidth <= 768 && (
             <div className="video-wrapper" data-aos="zoom-in">
               <video autoPlay loop muted playsInline className="video" width="100%">
-                <source src={vidm} type="video/webm" />
+                <source src={vidm} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>)}
