@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Home2 from "./Home2";
 import { FaArrowRight } from "react-icons/fa6";
 import lg from "../../Assets/lg.svg";
-import vid from "../../Assets/v1.mp4";
+import vid from "../../Assets/v11.mp4";
 import Nav from "../utils/Navbar";
 import { useInView } from "react-intersection-observer";
 
