@@ -26,8 +26,8 @@ function Home() {
         }, 100); // Add a 100ms delay before pausing
       }
     }
-    videoRef.current.controls = false;
-    videoRef.current.setAttribute('controlsList', 'nodownload nofullscreen noremoteplayback');
+   // videoRef.current.controls = false;
+   // videoRef.current.setAttribute('controlsList', 'nodownload nofullscreen noremoteplayback');
     return () => clearTimeout(timeout); // Clear timeout if the effect cleans up
   }, [inView]);
 
