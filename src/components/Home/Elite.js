@@ -20,7 +20,7 @@ const Section = () => {
     
     src={image}
     
-    alt="avatar"
+    alt="image elite"
     style={{width:"100%",height:"auto"}}
     data-aos="fade-up"
   />
