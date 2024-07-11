@@ -1943,11 +1943,23 @@ display:block ;
  
 }
 
-.imagebanner img {
+img {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
   
-  
+  -webkit-user-drag: none; /* Safari */
+  user-drag: none; /* Standard */
 }
 
+img::selection {
+  background: transparent; /* Removes selection color */
+}
+
+img::-moz-selection {
+  background: transparent; /* Removes selection color for Firefox */
+}
 .about-home-section {
   padding-bottom: 30px !important;
   padding-top: 30px !important;
