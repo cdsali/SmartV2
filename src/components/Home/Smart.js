@@ -15,6 +15,7 @@ function Home() {
 
   useEffect(() => {
     let timeout;
+    videoRef.current.play();
     if (videoRef.current) {
       if (inView) {
         timeout = setTimeout(() => {
@@ -43,7 +44,7 @@ function Home() {
         <div className="backvideo" ref={ref}>
           <video
             ref={videoRef}
-            autoPlay loop muted playsInline
+            loop muted playsInline
             className="video"
             width="100%"
             controls={false}
