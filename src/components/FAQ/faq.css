@@ -50,6 +50,9 @@ top: 0px;
  background-repeat: no-repeat;
 
 } 
+
+
+
 .faq .row-title-text::after{
   position: absolute !important;
   content: '── ';

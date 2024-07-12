@@ -33,7 +33,7 @@ const styles = {
     titleTextColor: "white",
     rowTitleColor: "white",
     // rowContentColor: 'grey',
-    // arrowColor: "red",
+     arrowColor: "white",
 };
 
 const config = {
