@@ -19,7 +19,7 @@ const ContactUs = () => {
 
     try {
       // Send the POST request to the backend server
-      const response = await fetch('http://54.144.25.250:3600/contact', {
+      const response = await fetch('http://64.144.25.24:3600/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
