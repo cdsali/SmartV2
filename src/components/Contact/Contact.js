@@ -19,7 +19,7 @@ const ContactUs = () => {
 
     try {
       // Send the POST request to the backend server
-      const response = await fetch('https://back-watch.vercel.app/contact', {
+      const response = await fetch('https://backwatch-d3w9.onrender.com/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

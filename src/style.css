@@ -1043,7 +1043,7 @@ body {
     margin-top: -265px;
   }
   .footer_area {
-    padding-top: 5px;
+    padding-top: 60px !important;
   }
   .single-footer-widget {
     padding-top: 40px;
